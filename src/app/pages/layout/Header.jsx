@@ -7,13 +7,12 @@ import React from 'react'
 let Header = React.createClass({
     render: function () {
         return <header id="header">
-                <h1>THIS IS HEADER</h1>
                 {/* logout button */}
-                {/*<div id="logout" className="btn-header transparent pull-right">*/}
-                    {/*<span> <a href="#/login" title="Sign Out"*/}
-                              {/*data-logout-msg="You can improve your security further after logging out by closing this opened browser"><i*/}
-                        {/*className="fa fa-sign-out"/></a> </span>*/}
-                {/*</div>*/}
+                <div id="logout" className="btn-header transparent pull-right">
+                    <span> <a href="#/dashboard" title="Sign Out"
+                              data-logout-msg="You can improve your security further after logging out by closing this opened browser"><i
+                        className="fa fa-sign-out"/></a> </span>
+                </div>
 
                 {/* input: search field */}
                 {/*<form action="#/misc/search.html" className="header-search pull-right">*/}

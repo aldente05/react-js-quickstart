@@ -9,13 +9,23 @@ let Layout = React.createClass({
     // componentWillMount: function () {
     //     UserActions.init();
     // },
-    render: function(){
+
+    render: function () {
         return (
             <div>
-                <Header />
+                <Header/>
 
                 <div id="main" role="main">
                     <h1>HELLO WORLD</h1>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <a href="#/dashboard"> DASHBOARD</a>
+                        </div>
+                        <div className="col-lg-6">
+                            <button>HELLO</button>
+                        </div>
+
+                    </div>
 
                 </div>
 
