@@ -16,17 +16,7 @@ let Layout = React.createClass({
                 <Header/>
 
                 <div id="main" role="main">
-                    <h1>HELLO WORLD</h1>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <a href="#/dashboard"> DASHBOARD</a>
-                        </div>
-                        <div className="col-lg-6">
-                            <button>HELLO</button>
-                        </div>
-
-                    </div>
-
+                    {this.props.children}
                 </div>
 
                 <Footer />

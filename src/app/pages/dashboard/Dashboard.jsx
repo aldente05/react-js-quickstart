@@ -8,7 +8,7 @@ let Dashboard = React.createClass({
     render: function () {
         return (
             <div id="content">
-                <h1>HELLO WORLD</h1>
+                <h1>THIS IS DASHBOARD VIEW</h1>
             </div>
         )
     }
